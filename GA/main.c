@@ -86,12 +86,13 @@ int main(){
 
     float distancia = distanciaPontoPlano(x0, y0, z0, A, B, C, D);
 
+    printf("A que tiver o valor entre raiz e fração mais proximo do número real e a certa!\n");
     printf("A distância do ponto P ao plano é: %.2f\n", distancia);
 
-    printf("A distância simplificada como raiz é: ");
+    printf("A distância como raiz é: ");
     simplificarRaiz(distancia);
 
-    printf("A distância simplificada como fração é: ");
+    printf("A distância como fração é: ");
     simplificarFracao(distancia * 3, 3);
 
     return 0;
